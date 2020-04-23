@@ -1,7 +1,7 @@
 
 {
-  "name": "Marie",
-  "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+  "name": "Cubot",
+  "description": "Telegram's helpful group manager. Modular Telegram group management bot!",
   "keywords": [
     "telegram",
     "best",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/TheDarkW3b/Marie-English",
+  "repository": "https://github.com/rohithollabr/mybotclone",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -21,11 +21,11 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "686021814"
+      "value": "1042070307"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "TheDarkW3b"
+      "value": "thedevilitself"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -37,23 +37,23 @@
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-      "value": "-1007777777777"
+      "value": "-10077777777777777"
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "686021814 835137609"
+      "value": "1042070307"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "835137609 686021814"
+      "value": "1042070307"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "686021814 835137609"
+      "value": "1042070307"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://t.me/TheDarkW3b"
+      "value": "https://t.me/thedevilitself"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
