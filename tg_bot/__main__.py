@@ -140,15 +140,15 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/MissSabrinaBot?startgroup=botstart"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")],
-                [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/TechnoAyanYT")]])
+                [[InlineKeyboardButton(text="🎉 Add me to your group", url="https://t.me/thefriendship365bot?startgroup=botstart"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")],
+                [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/joinchat/Phy7I1GsqTjMUbE-Ll5-tA")]])
             update.effective_message.reply_text(
                 tld(update.effective_message, PM_START_TEXT).format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 disable_web_page_preview=True,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=buttons)
     else:
-        update.effective_message.reply_text("Started, Successfully Lmao!")
+        update.effective_message.reply_text("Started, Successfully good!")
 
 
 # for test purposes
