@@ -26,7 +26,7 @@ Im An Advanced Group Manager Bot
 
 With Some Extra Modules
 
-Maintained by [HIM](t.me/thedevilitself).
+Maintained by [this person](tg://user?id={}).
 
 Hit /help for Avalaible Commands
 """
