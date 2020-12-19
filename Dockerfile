@@ -16,4 +16,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # command to run on container start
-CMD [ "python3", "./tgbot" ]
+CMD [ "python3 -m", "tgbot" ]
