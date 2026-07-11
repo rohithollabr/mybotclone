@@ -1,8 +1,10 @@
 import logging
 import os
 import sys
+import time
 
 import telegram.ext as tg
+from telegram.utils.helpers import escape_markdown
 
 # enable logging
 logging.basicConfig(
@@ -63,7 +65,7 @@ if ENV:
     API_WEATHER =os.environ.get('API_OPENWEATHER',False)
     DEEPFRY_TOKEN = os.environ.get('DEEPFRY_TOKEN', "")
     TEMPORARY_DATA = os.environ.get('TEMPORARY_DATA', None)
-    escape_markdown = os.environ.get('escape_markdown',None)
+    # Avoid overriding the `escape_markdown` helper; keep the helper imported above.
 
 else:
     from tg_bot.config import Development as Config
