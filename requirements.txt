@@ -12,7 +12,7 @@ pynewtonmath
 spongemock
 zalgo-text
 geopy==2.4.1
-nltk==3.8.1
+nltk==3.10.0
 aiohttp>=3.8.4
 Pillow>=9.5.0
 # Cool stuff by Peak
